@@ -10,7 +10,9 @@ if you use the browser for running project so django give UI for any types of op
 4 - run command in project folder's cmd pannel - pip install -r requirements.txt
 5 - go to "MyProject" folder using cmd
 6 - run following commands :-
-a) - python manage.py runserver - this command are use to start project 
+a) - python manage.py makemigrations
+b) - python manage.py migrate
+c) - python manage.py runserver - this command are use to start project 
     go to browser and paste it - http://127.0.0.1:8000/
 
 7 - open browser and enter following urls:-
